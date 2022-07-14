@@ -9,6 +9,10 @@ h1 {
   padding: 0;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 #card {
   width: 1200px;
   height: 628px;
