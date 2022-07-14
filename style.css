@@ -18,6 +18,20 @@ body {
   height: 628px;
   padding: 90px 80px 80px 80px;
   background-color: #111215;
+  background-image: url('img/bg.jpg');
+  background-size: cover;
   color: #fff;
 }
 
+.row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 57px;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 89px;
+  font-weight: 600;
+}
