@@ -35,3 +35,67 @@ h1 {
   line-height: 89px;
   font-weight: 600;
 }
+
+.row-2 {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.fromAndTo {
+  display: flex;
+  align-items: center;
+}
+
+.token {
+  display: flex;
+  align-items: center;
+}
+
+.tokenIcons {
+  margin-right: 20px;
+  position: relative;
+}
+
+.tokenIcon {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.networkIcon {
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  border: 2px solid #141C213D;
+}
+
+.networkName {
+  font-size: 24px;
+  line-height: 21px;
+}
+
+.tokenSymbol {
+  margin-top: 8px;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.arrowInCircle {
+  margin: 0 30px;
+}
+
+.site {
+  width: 250px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 21px;
+}
