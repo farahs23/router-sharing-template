@@ -109,6 +109,7 @@ hr {
 }
 
 .row-3 {
+  margin-top: 47px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,6 +118,9 @@ hr {
 
 .tools {
   display: flex;
+  max-width: 70%;
+  flex-wrap: wrap;
+  gap: 16px 0px;
 }
 
 .tool {
