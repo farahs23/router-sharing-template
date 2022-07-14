@@ -11,12 +11,15 @@ h1 {
 
 body {
   font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: -0.04em;
 }
 
 #card {
   width: 1200px;
   height: 628px;
-  padding: 90px 80px 80px 80px;
+  padding: 90px 80px 35px 80px;
   background-color: #111215;
   background-image: url('img/bg.jpg');
   background-size: cover;
@@ -63,6 +66,7 @@ h1 {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  overflow: hidden;
 }
 
 .networkIcon {
@@ -74,11 +78,10 @@ h1 {
   height: 34px;
   border-radius: 12px;
   border: 2px solid #141C213D;
+  overflow: hidden;
 }
 
 .networkName {
-  font-size: 24px;
-  line-height: 21px;
 }
 
 .tokenSymbol {
@@ -96,6 +99,57 @@ h1 {
 .site {
   width: 250px;
   text-align: center;
-  font-size: 24px;
-  line-height: 21px;
+}
+
+hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #FFFFFF1F;
+}
+
+.row-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 120px;
+}
+
+.tools {
+  display: flex;
+}
+
+.tool {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  height: 48px;
+  border-radius: 28px;
+  background-color: #FFFFFF14;
+  padding-right: 12px;
+}
+
+.toolIcon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.toolName {
+  font-weight: 600;
+}
+
+.time {
+  width: 250px;
+  text-align: center;
+}
+
+.timeValue {
+  margin-top: 12px;
+  font-size: 40px;
+  line-height: 35px;
+  font-weight: 600;
 }
