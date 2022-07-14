@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#card {
+  width: 1200px;
+  height: 628px;
+  padding: 90px 80px 80px 80px;
+  background-color: #111215;
+  color: #fff;
+}
+
